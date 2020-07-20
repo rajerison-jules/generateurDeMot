@@ -24,13 +24,16 @@ input[type=text] {
 .texte{
 	box-shadow: 0 0 10px;
 	font-size: 42px;
-	margin-top:200px;
-	position: relative;
+	position: absolute;
 	top: 100px;
-	font-family: Marker Felt, fantasy,
+	font-family: Marker Felt, fantasy;
+	margin-left: -271px;
+	text-align: center;
+	width: 400px;
+	
 }
 .fond{
-	position: absolute;
+	position: fixed;
 	transform: rotate(-45deg);
 	font-size: 500px;
 	right:50px;
@@ -41,6 +44,13 @@ input[type=text] {
 	
 	font-family: Verdana, sans-serif;
 	color: red;
-	
+	position: absolute;
+	margin-left: -54px;
 
+}
+.field{
+	width: 500px;
+}
+.titre{
+	color: #555555;
 }
